@@ -1,0 +1,46 @@
+# Runtime data — never commit these
+data/
+saves/
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environment
+.env
+*.env.local
+
+# PyInstaller (keep the spec file private)
+*.spec
+
+# Desktop app launchers (private — not for public use)
+desktop_app.py
+librecrawl_launcher.py
+librecrawl_pkg/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Logs
+*.log
+
+# UI backups
+web_backup_*/
